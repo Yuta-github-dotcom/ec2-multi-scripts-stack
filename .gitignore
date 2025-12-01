@@ -1,8 +1,57 @@
-*.js
-!jest.config.js
-*.d.ts
-node_modules
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# C/C++ / Rust
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.rlib
+target/
+
+# Go
+bin/
+*.exe
+
+# Logs
+*.log
+logs/
+debug.log
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# その他
+coverage/
+dist/
+build/
+tmp/
